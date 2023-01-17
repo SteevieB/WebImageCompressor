@@ -1,0 +1,39 @@
+body {
+    background-color: #f5f5f5;
+}
+
+h1 {
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+form {
+    margin-top: 50px;
+}
+
+.custom-file-input:focus ~ .custom-file-label {
+    border-color: #007bff;
+    box-shadow: 0 0 0 0.2rem rgba(0,123,255,0.25);
+}
+
+.custom-file-label {
+    overflow: hidden;
+}
+
+.custom-file-label::after {
+    content: "Browse";
+    background-color: #007bff;
+    border-radius: .25rem;
+    color: #fff;
+    padding: .375rem .75rem;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.custom-file-label.selected::after {
+    content: "Change";
+}
+
+button[type="submit"] {
+    margin-top: 25px;
+}
