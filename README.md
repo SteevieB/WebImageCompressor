@@ -27,7 +27,7 @@ Open your browser and go to http://localhost:5000/
 ## Using the app
 
 - Select an image from your computer.
-- Click the "Upload and Compress" button.
+- Click the "Compress" button.
 - A toast message will appear to confirm the upload.
 - Click on the Download button to download the compressed image
 
@@ -35,6 +35,8 @@ Open your browser and go to http://localhost:5000/
 
 - Flask - The web framework used
 - Pillow - Image processing library
+- iziToast - Beautiful toasts
+- Bootstrap - frontend toolkit
 
 ## Author
 
