@@ -26,15 +26,15 @@ Open your browser and go to http://localhost:5000/
 
 ## Using the app
 
-Select an image from your computer.
-Click the "Upload and Compress" button.
-A toast message will appear to confirm the upload.
-Click on the Download button to download the compressed image
+- Select an image from your computer.
+- Click the "Upload and Compress" button.
+- A toast message will appear to confirm the upload.
+- Click on the Download button to download the compressed image
 
 ## Built With
 
-Flask - The web framework used
-Pillow - Image processing library
+- Flask - The web framework used
+- Pillow - Image processing library
 
 ## Author
 
